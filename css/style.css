@@ -179,14 +179,115 @@ a{
  display: none;
 }
 
+.about{
+ padding: 128px 0 72px;
+ background-color: #041329;
+ color: #FFFFFF;
+}
+
+.about__title{
+ font-size: 32px;
+ line-height: 40px;
+ font-weight: 600;
+ font-family: "Outfit",
+  sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.about__subtitle{
+ font-size: 24px;
+ line-height: 32px;
+ font-weight: 600;
+ font-family: "Outfit",sans-serif;
+ text-align: center;
+ margin-bottom: 75px;
+}
+
+.about__items{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ /* flex-wrap: wrap; */
+}
+
+.about__item{
+ padding: 32px 24px;
+ width: 262px;
+ min-height: 240px;
+ background-color: #0D2C59;
+ border-radius: 13px;
+
+ 
+}
+
+.about__item-icon{
+ margin-bottom: 24px;
+}
+
+.about__item-title{
+ font-size: 17px;
+ line-height: 24px;
+ font-weight: 600;
+ font-family: "Outfit", sans-serif;
+ margin-bottom: 16px;
+ text-transform: uppercase;
+}
+
+.about__item-text{
+ font-size: 14px;
+ line-height: 22px;
+ font-weight: 400;
+ font-family: "Outfit", sans-serif;
+}
+
+.about__item-list{
+ font-size: 14px;
+ line-height: 22px;
+ font-weight: 400;
+ font-family: "Outfit", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* .footer {
     padding: 30px 0 110px;
 } */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 1160px) {
- 
+ .about__item{
+  margin-bottom: 30px;
+ }
 
 }
 
@@ -321,6 +422,34 @@ z-index: 10;
 .slick-track{
  padding-left: 15px;
 }
+
+.about {
+ padding: 90px 0 32px;
+ 
+}
+
+.about__items{
+ justify-content: space-evenly;
+}
+
+.about__title {
+ font-size: 30px;
+ line-height: 34px;
+ font-weight: 600;
+ margin-bottom: 15px;
+ text-transform: none;
+}
+
+.about__subtitle {
+ font-size: 18px;
+ line-height: 24px;
+ margin-bottom: 30px;
+}
+
+.about__item {
+ margin-bottom: 20px;
+}
+
 }
 
 @media(max-width: 390px) {
