@@ -294,7 +294,7 @@ body {
   .header__front-list{
    display: grid;
    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
-   gap: 10px;
+   gap: 1px;
   }
 
  .header__front-list {
@@ -314,6 +314,11 @@ body {
  .top__container{
   margin-bottom: 0px;
  }
+
+  .header__title {
+
+   margin-bottom: 10px;
+  }
 
 }
 
