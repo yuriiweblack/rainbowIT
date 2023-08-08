@@ -238,13 +238,13 @@ body {
  .header__front-list {
   padding: 20px 30px 30px;
   border-radius: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   flex-wrap: wrap;
 
  }
 
  .top__container{
-  margin-top: 20px;
+  margin-top: 0px;
  }
 
  .header__front{
@@ -261,7 +261,7 @@ body {
  }
 
   .header__content-inner {
-   justify-content: start;
+   justify-content: space-evenly;
   }
   
 
@@ -278,7 +278,7 @@ body {
  .header__title {
    font-size: 32px;
    line-height: 34px;
-   padding-top: 15px;
+   padding-top: 0;
   }
  
   .title__online {
@@ -287,7 +287,7 @@ body {
   }
  
   .title__online-span {
-   font-size: 22px;
+   font-size: 26px;
    line-height: 28px;
   }
 
@@ -312,7 +312,7 @@ body {
   }
 
  .top__container{
-  margin-bottom: 30px;
+  margin-bottom: 0px;
  }
 
 }
