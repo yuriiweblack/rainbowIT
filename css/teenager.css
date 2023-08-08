@@ -287,7 +287,7 @@ body {
   }
  
   .title__online-span {
-   font-size: 26px;
+   font-size: 24px;
    line-height: 28px;
   }
 
@@ -295,6 +295,7 @@ body {
    display: grid;
    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
    gap: 1px;
+   justify-items: end;
   }
 
  .header__front-list {
