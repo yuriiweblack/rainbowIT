@@ -653,6 +653,105 @@ a{
  color: #7DF5CA;
 }
 
+.contact-us{
+ padding: 160px 0 50px;
+ background-color: #0F1D31;
+ 
+}
+
+.map{
+ position: relative;
+}
+
+.location__map {
+ position: absolute;
+ top: -530px;
+ left: 56%;
+}
+
+.map__img{
+ margin: 0 auto;
+ display: block;
+}
+
+.map__img-adaptive {
+ display: none;
+}
+
+.location{
+ padding: 25px 18px;
+ color: #FFFFFF;
+ background-color: #041329;
+ max-width: 275px;
+ border-radius: 10px;
+ position: relative;
+}
+
+.location__title{
+ margin-bottom: 20px;
+ padding-left: 33px;
+ font-size: 17px;
+ line-height: 24px;
+ font-weight: 600;
+ position: relative;
+}
+
+.location__phone{
+ padding-left: 33px;
+ font-size: 16px;
+ line-height: 26px;
+ opacity: 0.7;
+ position: relative;
+}
+
+.location__address{
+ margin-bottom: 8px;
+ padding-left: 33px;
+ font-size: 16px;
+ line-height: 26px;
+ opacity: 0.7;
+ position: relative;
+}
+
+.location__title::before {
+ content: "";
+ position: absolute;
+ width: 24px;
+ height: 24px;
+ background-image: url('../images/office-png.png');
+ background-repeat: no-repeat;
+ left: 0;
+ top: 0px;
+}
+
+.location__address::before{
+ content: "";
+ position: absolute;
+ width: 35px;
+ height: 35px;
+ background-image: url('../images/address.png');
+ background-repeat: no-repeat;
+ left: 0;
+ top: 0;
+}
+
+.location__phone::before {
+ content: "";
+ position: absolute;
+ width: 35px;
+ height: 35px;
+ background-image: url('../images/phone.svg');
+ background-repeat: no-repeat;
+ left: 8px;
+ top: 2px;
+}
+
+.location__leg{
+ position: absolute;
+ left: 2px;
+ bottom: -40px;
+}
+
 
 .footer{
  padding: 55px 0 45px;
@@ -807,7 +906,6 @@ a{
  z-index: 2;
  height: 30px;
 }
-
 
 .go-top{
  position: absolute;
@@ -976,6 +1074,19 @@ z-index: 10;
   padding-top: 35px;
  }
 
+ .map__img {
+  width: 100%;
+ }
+
+  .location {
+   max-width: 230px;
+  }
+
+.location__map {
+ top: -443px;
+ left: 58%;
+}
+
 }
 
 @media(max-width: 600px) {
@@ -1098,6 +1209,20 @@ z-index: 10;
  margin-bottom: 10px;
 }
 
+.map__img {
+ width: 90%;
+}
+
+.location {
+ max-width: 220px;
+ padding: 10px 10px;
+}
+
+.location__map {
+ top: -343px;
+ left: 58%;
+}
+
 .footer-top{
  flex-direction: column;
  align-items: center;
@@ -1213,6 +1338,44 @@ z-index: 10;
     font-size: 16px;
     line-height: 24px;
   }
+
+    .map {
+     width: 100%;
+    }
+
+  .map__img{
+   display: none;
+   
+  }
+
+  .map__img-adaptive{
+   display: block;
+   width: 100%;
+  }
+
+  
+
+  .location {
+   max-width: 255px;
+   padding: 20px 10px;
+  }
+
+  .location__map {
+   top: -432px;
+   left: -3%;
+  }
+
+  .location__leg {
+    left: 230px;
+    bottom: -40px;
+  }
+
+ .contact-us {
+  padding-bottom: 10px;
+
+ }
+
+
 
   .footer-top__list{
    display: none;
