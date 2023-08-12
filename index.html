@@ -15,6 +15,7 @@
   
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -32,8 +33,17 @@
             <li class="menu__item">
               <a href="#" class="menu__link menu__link-adaptive">Про навчання</a>
             </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link menu__link-adaptive">Курси</a>
+            <li class="menu__item menu__item-dropdown">
+              <div class="dropdown">
+               <button class="dropbtn" onclick="myFunction()">Курси
+                <i class="fa fa-caret-down"></i>
+               </button>
+               <div class="dropdown-content" id="myDropdown">
+                <a href="teenager.html">Діти</a>
+                <a href="teenager.html">Дорослі</a>
+                <a href="teenager.html">English</a>
+               </div>
+              </div>
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link menu__link-adaptive">Вартість</a>
@@ -45,17 +55,16 @@
 
           <ul class="menu__side">
            <li class="menu__side-traslate menu__link">
-            <div class="menu__traslate">
-             <!-- <a href="#" class="menu__traslate-link">UA</a> /
-             <a href="#" class="menu__traslate-link">EN</a> -->
-             <select class="menu__traslate">
-              <option class="menu__traslate-option" value="">
-               <a href="#" class="menu__traslate-link">UA</a>
-              </option>
-              <option class="menu__traslate-option" value="">
-               <a href="#" class="menu__traslate-link">EN</a>
-              </option>
-             </select>
+            <div class="menu__traslat">
+             <div class="dropdown">
+              <button class="dropbtn" onclick="langFunction()">UA
+               <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="langDropdown">
+               <a href="english.html">EN</a>
+              </div>
+             </div>
+
             </div>
            </li>
            <li class="menu__side-contact menu__link">
@@ -191,7 +200,7 @@
       свої сильні сторони та досягати своїх цілей у світі інформаційних технологій.
       <br><br></span>
       Навчання з нуля допоможе Вам зрозуміти основи, які згодом стануть великим початком для підкорення вершин. Досить мати комп'ютер та хороший інтернет.
-      Вікова категорія не має значення, Вам може бути 11, 30, 65 років.
+      Вікова категорія не має значення, Вам може бути 11, 30 або навіть 65 років!
      </p>
 
      <div class="about__work">

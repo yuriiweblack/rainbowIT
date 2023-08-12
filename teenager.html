@@ -36,8 +36,17 @@
       <li class="menu__item">
        <a href="#" class="menu__link menu__link-adaptive">Програма</a>
       </li>
-      <li class="menu__item">
-       <a href="#" class="menu__link menu__link-adaptive">Курси</a>
+      <li class="menu__item menu__item-dropdown">
+        <div class="dropdown">
+         <button class="dropbtn" onclick="myFunction()">Курси
+          <i class="fa fa-caret-down"></i>
+         </button>
+         <div class="dropdown-content" id="myDropdown">
+          <a href="teenager.html">Діти</a>
+          <a href="teenager.html">Дорослі</a>
+          <a href="teenager.html">English</a>
+         </div>
+        </div>
       </li>
       <li class="menu__item">
        <a href="#" class="menu__link menu__link-adaptive">Вартість</a>
@@ -50,16 +59,14 @@
      <ul class="menu__side">
       <li class="menu__side-traslate menu__link">
        <div class="menu__traslate">
-        <!-- <a href="#" class="menu__traslate-link">UA</a> /
-             <a href="#" class="menu__traslate-link">EN</a> -->
-        <select class="menu__traslate">
-         <option class="menu__traslate-option" value="">
-          <a href="#" class="menu__traslate-link">UA</a>
-         </option>
-         <option class="menu__traslate-option" value="">
-          <a href="#" class="menu__traslate-link">EN</a>
-         </option>
-        </select>
+         <div class="dropdown">
+          <button class="dropbtn" onclick="langFunction()">UA
+           <span class="arrow-dropbtn"></span>
+          </button>
+          <div class="dropdown-content" id="langDropdown">
+           <a href="english.html">EN</a>
+          </div>
+         </div>
        </div>
       </li>
       <li class="menu__side-contact menu__link">
@@ -258,7 +265,7 @@
          <input type="checkbox" id="chck2">
          <label class="tab-label" for="chck2">Поняття Front-End. HTML</label>
          <div class="tab-content">
-          Поняття Front-End. HTML
+          Поняття Front-End. HTML Поняття Front-End. HTML Поняття Front-End. HTML Поняття Front-End. HTML
          </div>
         </div>
 

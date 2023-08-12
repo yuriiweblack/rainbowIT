@@ -73,3 +73,35 @@ $(function () {
 
 //  elems_4.style.color = "#fff";
 // })();
+
+function langFunction() {
+ document.getElementById("langDropdown").classList.toggle("showL");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (i) {
+ if (!i.target.matches('.dropbtn')) {
+  let langDropdown = document.getElementById("langDropdown");
+  if (langDropdown.classList.contains('showL')) {
+   langDropdown.classList.remove('showL');
+  }
+ }
+}
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+
+function myFunction() {
+ document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (e) {
+ if (!e.target.matches('.dropbtn')) {
+  let myDropdown = document.getElementById("myDropdown");
+  if (myDropdown.classList.contains('show')) {
+   myDropdown.classList.remove('show');
+  }
+ }
+}
+
