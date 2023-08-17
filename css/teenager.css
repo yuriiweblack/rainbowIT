@@ -297,7 +297,9 @@ input:checked ~.tab-content {
  line-height: 1.5;
 }
 
-
+.tab-content-list{
+ padding-left: 20px;
+}
 
 @media(max-width: 1180px) {
 

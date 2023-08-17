@@ -994,6 +994,41 @@ a{
  text-align: center;
 }
 
+.footer__dropdown .dropbtn{
+ padding: 0;
+}
+
+.dropdown-content-link a{
+ padding: 7px 0;
+}
+
+/* .footer-logo{
+ display: flex;
+ flex-direction: column-reverse;
+} */
+
+.footer-logo{
+ position: relative;
+}
+
+.footer-logo::after{
+ content: "";
+ position: absolute;
+ background-image: url("../images/logo_rainbow.jpg");
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 90px;
+ height: 90px;
+ opacity: 0.3;
+ border-radius: 50%;
+ left: 0px;
+ top: 5px
+}
+
+.footer-logo {
+ padding-top: 95px;
+}
+
 
 @media(max-width: 1180px) {
  .about__item{

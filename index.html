@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="UA">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>RAINBOW IT</title>
+  <link rel="icon" sizes="192x192"
+   href="images/icon.jpg">
+  <meta name="description" content="Rainbow.english.it - Онлайн курс по веб-розробці та курс по Python призначений для дітей та дорослих, для тих хто тільки починає свій шлях в IT-сфері і не має значення скільки тобі років.
+  Ми допоможемо тобі поринути в Front-end або Back-end. Після курсу ти зможеш працювати з HTML,CSS,JavaScript,Python та іншими технологіями.">
+  <meta name="keywords" content="web-розробка сайтів, Python, онлайн курс, програмування для дітей, програмування для дорослих, IT для новачків, IT з нуля, англійська для IT, сайт з нуля, HTML, JavaScript, Back-end, Front-end, Full Stack, English for IT, програмування Теремки, IT Київ, Програмування Европа, IT освіта, rainbow.english.it, школа Rainbow, розробник сайтів, робота в IT">
+  <title>IT Курси Rainbow - програмування для дітей та дорослих | Онлайн IT школа</title>
   <link rel="stylesheet" href="css/reset.css">
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,6 +31,7 @@
       <div class="header__top">
         <a class="logo" href="#" >
           Rainbow IT
+          <!-- <img src="images/icon.jpg" width="20%" style="border-radius: 50%;" alt=""> -->
         </a>
         <nav class="menu">
           
@@ -343,7 +349,7 @@
          <li class="price__list-item">Тривалість: <b>3 місяці</b></li>
          <li class="price__list-item">Графік: <b>2 рази на тиждень</b></li>
          <li class="price__list-item">Кількість: <b>до 15 студентів</b></li>
-         <li class="price__list-item">Переваги: <b>командна робота</b></li>
+         <li class="price__list-item">Переваги: <b>командна робота, власний проект</b></li>
          <li class="price__list-item price__list--text">Підтримка: <b>фідбек від ментора</b></li>
          <li class="price__list-item"><i>* Сертифікат по закінченню курсу</i></li>
         
@@ -359,7 +365,7 @@
         <li class="price__list-item">Тривалість: <b>2 місяці</b></li>
         <li class="price__list-item">Графік: <b>3 рази на тиждень</b></li>
         <li class="price__list-item">Кількість: <b>до 20 студентів</b></li>
-        <li class="price__list-item">Переваги: <b>командна робота</b></li>
+        <li class="price__list-item">Переваги: <b>командна робота, власний проект</b></li>
         <li class="price__list-item price__list--text">Підтримка: <b>фідбек від ментора</b></li>
         <li class="price__list-item"><i>* Сертифікат по закінченню курсу</i></li>
        
@@ -404,9 +410,11 @@
   <footer class="footer footer-adap" id="contact">
    <div class="container">
     <div class="footer-top">
+     <!-- <img class="logo_rainbow" src="images/logo_rainbow.jpg" alt=""> -->
      <a class="logo footer-logo" href="#">
       Rainbow IT
      </a>
+     
      <div class="footer-top__item footer-top__nav footer-top__nav-hidden">
       <h6 class="footer-top__title">
        Курси діти
@@ -496,14 +504,17 @@
 
      <div class="footer-top__item footer-top__nav footer-top__nav-hidden footer-top__traslate-item">
       <h6 class="footer-top__title footer__traslate-title">
-       <select class="menu__traslate">
-        <option class="menu__traslate-option" value="">
-         <a href="#" class="menu__traslate-link">UA</a>
-        </option>
-        <option class="menu__traslate-option" value="">
-         <a href="#" class="menu__traslate-link">EN</a>
-        </option>
-       </select>
+       <div class="menu__traslat">
+        <div class="dropdown footer__dropdown">
+         <button class="dropbtn" onclick="footFunction()">UA
+          <i class="fa fa-caret-down"></i>
+         </button>
+         <div class="dropdown-content dropdown-content-link" id="footDropdown">
+          <a  href="english.html">EN</a>
+         </div>
+        </div>
+       
+       </div>
       </h6>
      </div>
 
@@ -512,12 +523,12 @@
        Ukraine
       </h6>
       E-mail:
-      <a class="footer-top__email" href="mailto:yuriiwebblack@gmail.com">
-       yuriiwebblack@gmail.com
+      <a class="footer-top__email" href="mailto:ugrigorenko30@gmail.com">
+       ugrigorenko30@gmail.com
       </a>
       
-      <a class="footer-top__phone" href="tel:+380665157106">
-       +38066 515 7106
+      <a class="footer-top__phone" href="tel:+380633217044">
+       +38063 321 70 44
       </a>
      </div>
     </div>
@@ -526,7 +537,7 @@
     
      <ul class="footer__social-list">
       <li class="footer__social-item">
-       <a class="footer__social-link" href="https://www.facebook.com/profile.php?id=100089510252274" target="_blank">
+       <a class="footer__social-link" href="https://www.facebook.com/rainbow.english.it/" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px"
          viewBox="0 0 20 20" version="1.1">
          <g>
@@ -540,7 +551,7 @@
       
       
       <li class="footer__social-item">
-       <a class="footer__social-link" href="#"
+       <a class="footer__social-link" href="https://www.instagram.com/rainbow.english.it/"
         target="_blank">
         <svg width="20" height="20" viewBox="0 0 20 20"  xmlns="http://www.w3.org/2000/svg">
          <path
@@ -549,7 +560,7 @@
        </a>
       </li>
       <li class="footer__social-item">
-       <a class="footer__social-link" href="viber://chat?number=%2B380665157106" target="_blank">
+       <a class="footer__social-link" href="viber://chat?number=%2B380633217044" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px"
          viewBox="0 0 20 20" version="1.1">
          <g id="surface1">
@@ -560,7 +571,7 @@
        </a>
       </li>
       <li class="footer__social-item">
-       <a class="footer__social-link" href="https://t.me/webblackk" target="_blank">
+       <a class="footer__social-link" href="https://t.me/rainbowcentre" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px"
          viewBox="0 0 20 20" version="1.1">
          <g id="surface1">
