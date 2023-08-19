@@ -12,7 +12,7 @@
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kumbh+Sans&family=Outfit&display=swap"
   rel="stylesheet">
-
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
  <link rel="stylesheet" href="css/slick.css">
  <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -118,8 +118,8 @@
        </ul>
       </div>
      </div>
-     <div class="header__content-top">
-      <div class="header__front">
+     <div class="header__content-top ">
+      <div class="header__front animate__animated animate__fadeInLeftBig">
       <h1 class="header__title">
        <span class="title__online">Онлайн</span><br>
        Курс <span class="title__online-span"><a href="#">
@@ -137,7 +137,7 @@
       </ul>
       
       </div>
-      <div class="header__python">
+      <div class="header__python animate__animated animate__fadeInRightBig">
       <h2 class="header__title">
        <span class="title__online">Онлайн</span><br>
        Курс <span class="title__online-span"><a href="#">
@@ -265,6 +265,7 @@
            <li>Принцип роботи браузера, запити на сервер</li>
            <li>Сервер</li>
            <li>Домен</li>
+           <li>World Wide Web Consortium</li>
            <li>Classroom. Як відбувається навчання</li>
           </ul>
           
@@ -289,7 +290,7 @@
 
         <div class="tab">
          <input type="checkbox" id="chck2">
-         <label class="tab-label" for="chck2">Version Control System Git & GitHub</label>
+         <label class="tab-label" for="chck2">Version Control System Git & GitHub &#8987</label>
          <div class="tab-content">
           <ul class="tab-content-list">
            <li>Встановлення Git локально, на робочий комп'ютер. Налаштування</li>
@@ -302,10 +303,18 @@
         </div>
 
         <div class="tab">
-         <input type="checkbox" id="chck2">
-         <label class="tab-label" for="chck2">Поняття Front-End. HTML</label>
+         <input type="checkbox" id="chck2_1">
+         <label class="tab-label" for="chck2_1">Принципи роботи HTML</label>
          <div class="tab-content">
-          Поняття Front-End. HTML Поняття Front-End. HTML Поняття Front-End. HTML Поняття Front-End. HTML
+          <ul class="tab-content-list">
+           <li>Поняття та структура HTML документа</li>
+           <li>Основні теги</li>
+           <li>Атрибути</li>
+           <li>Класи</li>
+           <li>Стилі</li>
+           <li>Підключення файлів, картинок</li>
+          </ul>
+          
          </div>
         </div>
 
@@ -539,7 +548,7 @@
     <a class="logo footer-logo" href="#">
      Rainbow IT
     </a>
-    <div class="footer-top__item footer-top__nav footer-top__nav-hidden">
+    <div class="footer-top__item footer-top__nav footer-top__nav-hidden footer-top__none">
      <h6 class="footer-top__title">
       Курси діти
      </h6>
@@ -568,7 +577,7 @@
      </ul>
     </div>
 
-    <div class="footer-top__item footer-top__nav footer-top__nav-hidden">
+    <div class="footer-top__item footer-top__nav footer-top__nav-hidden footer-top__none">
      <h6 class="footer-top__title">
       Курси дорослі
      </h6>
@@ -596,7 +605,7 @@
      </ul>
     </div>
 
-    <div class="footer-top__item footer-top__nav footer-top__nav-hidden">
+    <div class="footer-top__item footer-top__nav footer-top__nav-hidden footer-top__none">
      <h6 class="footer-top__title">
       Інформація
      </h6>
@@ -630,7 +639,7 @@
      <h6 class="footer-top__title footer__traslate-title">
       <div class="menu__traslat">
        <div class="dropdown footer__dropdown">
-        <button class="dropbtn" onclick="footFunction()">UA
+        <button class="dropbtn dropbtn-footer" onclick="footFunction()">UA
          <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content dropdown-content-link" id="footDropdown">

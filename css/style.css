@@ -1178,6 +1178,10 @@ z-index: 10;
   margin-bottom: 25px;
  }
 
+  /* .animate__fadeInDown {
+   display: none;
+  } */
+
 }
 
 @media(max-width: 890px) {
@@ -1431,6 +1435,34 @@ z-index: 10;
    letter-spacing: 1px;
    font-size: 16px;
   }
+
+  .footer-top__none{
+   display: none;
+  }
+
+  .footer-logo::after {
+    
+    width: 60px;
+    height: 60px;
+    opacity: 0.6;
+    border-radius: 50%;
+    left: 10px;
+    top: 16px;
+}
+
+.footer__dropdown .dropbtn-footer{
+ padding-left: 19px;
+ /* margin-bottom: 0; */
+}
+
+.dropdown .dropbtn{
+ text-transform: uppercase;
+ font-size: 17px;
+}
+
+.footer-top__email {
+ margin-bottom: 10px;
+}
 
 }
 

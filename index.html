@@ -17,7 +17,7 @@
  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kumbh+Sans&family=Outfit&display=swap"
   rel="stylesheet">
  
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,14 +26,14 @@
 </head>
 <body>
   
-  <header class="header">
+  <header class="header animate__animated animate__fadeInDown">
     <div class="container">
-      <div class="header__top">
+      <div class="header__top ">
         <a class="logo" href="#" >
           Rainbow IT
           <!-- <img src="images/icon.jpg" width="20%" style="border-radius: 50%;" alt=""> -->
         </a>
-        <nav class="menu">
+        <nav class="menu ">
           
           <ul id="list" class="menu__list">
             <li class="menu__item">
@@ -103,14 +103,14 @@
       <div class="container">
        <div class="header__content-inner">
          <div class="header__content-top">
-          <h1 class="header__title">
+          <h1 class="header__title animate__animated animate__fadeInLeftBig">
             <span class="title__online">Онлайн</span><br>
             Курс для IT початківців
           </h1>
-          <h2 class="header__content-text">Опануємо технології за певним напрямком з нуля до створення перших власних проєктів.</h2>
+          <h2 class="header__content-text animate__animated animate__fadeInRightBig">Опануємо технології за певним напрямком з нуля до створення перших власних проєктів.</h2>
         </div>
         <img class="intelligence-img" src="images/intelligence.png" alt="intelligence-img">
-        <div class="header__content-bottom">
+        <div class="header__content-bottom animate__animated animate__backInDown">
          <div class="header__content-box">
           <h3 class="box__title">
            <a href="#" class="box__title-link">
@@ -197,7 +197,7 @@
   <main class="main">
    <section class="about">
     <div class="container">
-     <h2 class="about__title-top">
+     <h2 class="about__title-top ">
       Як ми працюємо
      </h2>
      <p class="about__text">
@@ -415,7 +415,7 @@
       Rainbow IT
      </a>
      
-     <div class="footer-top__item footer-top__nav footer-top__nav-hidden">
+     <div class="footer-top__item footer-top__nav footer-top__nav-hidden footer-top__none">
       <h6 class="footer-top__title">
        Курси діти
       </h6>
@@ -444,7 +444,7 @@
       </ul>
      </div>
 
-     <div class="footer-top__item footer-top__nav footer-top__nav-hidden">
+     <div class="footer-top__item footer-top__nav footer-top__nav-hidden footer-top__none">
       <h6 class="footer-top__title">
        Курси дорослі
       </h6>
@@ -472,7 +472,7 @@
       </ul>
      </div>
 
-     <div class="footer-top__item footer-top__nav footer-top__nav-hidden">
+     <div class="footer-top__item footer-top__nav footer-top__nav-hidden footer-top__none">
       <h6 class="footer-top__title">
        Інформація
       </h6>
@@ -506,7 +506,7 @@
       <h6 class="footer-top__title footer__traslate-title">
        <div class="menu__traslat">
         <div class="dropdown footer__dropdown">
-         <button class="dropbtn" onclick="footFunction()">UA
+         <button class="dropbtn dropbtn-footer" onclick="footFunction()">UA
           <i class="fa fa-caret-down"></i>
          </button>
          <div class="dropdown-content dropdown-content-link" id="footDropdown">
