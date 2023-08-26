@@ -1464,6 +1464,10 @@ z-index: 10;
  margin-bottom: 10px;
 }
 
+.dropdown__lang a {
+ padding: 0 18px;
+}
+
 }
 
 @media(max-width: 390px) {

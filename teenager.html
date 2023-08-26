@@ -6,6 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title>Teenager IT</title>
+ <link rel="icon" sizes="192x192" href="images/icon.jpg">
  <link rel="stylesheet" href="css/reset.css">
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +40,8 @@
       <li class="menu__item menu__item-dropdown">
         <div class="dropdown">
          <button class="dropbtn dropbtn-adaptive" onclick="myFunction()">Курси
-          <i class="fa fa-caret-down"></i>
+          <!-- <i class="fa fa-caret-down"></i> -->
+          <!-- <img src="images/icons/down-arrow.png" width="18px" alt=""> -->
          </button>
          <div class="dropdown-content" id="myDropdown">
           <a href="teenager.html">Діти</a>
@@ -59,7 +61,7 @@
      <ul class="menu__side">
       <li class="menu__side-traslate menu__link">
        <div class="menu__traslate">
-         <div class="dropdown">
+         <div class="dropdown dropdown__lang">
           <button class="dropbtn" onclick="langFunction()">UA
            <span class="arrow-dropbtn"></span>
           </button>
@@ -256,7 +258,7 @@
        <div class="tabs">
         <div class="tab">
          <input type="checkbox" id="chck1">
-         <label class="tab-label" for="chck1">Початок роботи &#128522</label>
+         <label class="tab-label" for="chck1">Вступ у Front-end &#128522</label>
          <div class="tab-content">
           <ul class="tab-content-list">
            <li>Знайомство з групою.</li>
@@ -304,7 +306,7 @@
 
         <div class="tab">
          <input type="checkbox" id="chck2_1">
-         <label class="tab-label" for="chck2_1">Принципи роботи HTML</label>
+         <label class="tab-label" for="chck2_1">Принципи роботи HTML &#128187</label>
          <div class="tab-content">
           <ul class="tab-content-list">
            <li>Поняття та структура HTML документа</li>
@@ -313,58 +315,106 @@
            <li>Класи</li>
            <li>Стилі</li>
            <li>Підключення файлів, картинок</li>
+           <li>Chrome DevTools для інспектування коду в браузері</li>
           </ul>
           
          </div>
         </div>
 
         <div class="tab">
-         <input type="checkbox" id="chck3">
-         <label class="tab-label" for="chck3">Технологія CSS (Cascading Style Sheet).</label>
+         <input type="checkbox" id="chck2_2">
+         <label class="tab-label" for="chck2_2">Введення в CSS (Cascading Style Sheet) &#128099</label>
          <div class="tab-content">
-          Технологія CSS (Cascading Style Sheet).
+          <ul class="tab-content-list">
+           <li>Поняття та структура CSS</li>
+           <li>CSS селектори</li>
+           <li>Властивості та значення селекторів</li>
+           <li>Відступи</li>
+           <li>Шрифти</li>
+          </ul>
+        
+         </div>
+        </div>
+
+        <div class="tab">
+         <input type="checkbox" id="chck3">
+         <label class="tab-label" for="chck3">Технології CSS &#128099</label>
+         <div class="tab-content">
+          <ul class="tab-content-list">
+           <li>Скидання стилів <b>CSS Reset</b></li>
+           <li>Max та min значення</li>
+           <li>Box-sizing, inherit</li>
+           <li>Псевдокласи</li>
+           <li>Псевдоелементи</li>
+          </ul>
+         </div>
+        </div>
+
+        <div class="tab">
+         <input type="checkbox" id="chck3_1">
+         <label class="tab-label" for="chck3_1">Практичний CSS &#128099</label>
+         <div class="tab-content">
+          <ul class="tab-content-list">
+           <li>Позиціювання елементів</li>
+           <li>Властивості transform & transition</li>
+           <li>Правила –– float, z-index, overflow.</li>
+           <li>Перевірка коду онлайн редактором</li>
+          </ul>
          </div>
         </div>
 
         <div class="tab">
          <input type="checkbox" id="chck4">
-         <label class="tab-label" for="chck4">Блочна верстка</label>
+         <label class="tab-label" for="chck4">Блочна верстка &#128477</label>
          <div class="tab-content">
-          Блочна верстка
+          <ul class="tab-content-list">
+           <li>Flex</li>
+           <li>FlexBox Architecture</li>
+           <li>Робота з блоками</li>
+           <li>Основи JS и JQuery. Підключення плагінів</li>
+          </ul>
          </div>
         </div>
 
         <div class="tab">
          <input type="checkbox" id="chck5">
-         <label class="tab-label" for="chck5">Таблиці, інпути та форми, семантика тегів.</label>
+         <label class="tab-label" for="chck5">Advance HTML &#128187</label>
          <div class="tab-content">
-          Таблиці, інпути та форми, семантика тегів.
+          <ul class="tab-content-list">
+           <li>Семантична верстка</li>
+           <li>Форми та стилізація</li>
+           <li>Таблиці</li>
+           <!-- <li>Практична робота</li> -->
+          </ul>
          </div>
         </div>
 
         <div class="tab">
          <input type="checkbox" id="chck6">
-         <label class="tab-label" for="chck6">Flexbox</label>
+         <label class="tab-label" for="chck6">Grid-модель</label>
          <div class="tab-content">
-          Flexbox
+          <ul class="tab-content-list">
+           <li>Поняття grid</li>
+           <li>Позиціювання елементів на grid</li>
+           <li>Розташування елементів на grid</li>
          </div>
         </div>
 
-        <div class="tab">
+        <!-- <div class="tab">
          <input type="checkbox" id="chck7">
          <label class="tab-label" for="chck7">Grid</label>
          <div class="tab-content">
           Grid
          </div>
-        </div>
+        </div> -->
 
-        <div class="tab">
+        <!-- <div class="tab">
          <input type="checkbox" id="chck8">
          <label class="tab-label" for="chck8">Псевдокласи</label>
          <div class="tab-content">
           Псевдокласи
          </div>
-        </div>
+        </div> -->
 
         <div class="tab">
          <input type="checkbox" id="chck9">
@@ -376,7 +426,7 @@
 
         <div class="tab">
          <input type="checkbox" id="chck10">
-         <label class="tab-label" for="chck10">Анімації та трансформації</label>
+         <label class="tab-label" for="chck10">Анімації</label>
          <div class="tab-content">
           Анімації та трансформації
          </div>
@@ -405,7 +455,7 @@
     </div>
    </section>
 
-   <section class="program Python">
+   <!-- <section class="program Python">
     <div class="container">
      <h2 class="program__title">
       Програма <span class="title__online-span">
@@ -537,7 +587,7 @@
       </div>
      </div>
     </div>
-   </section>
+   </section> -->
 
    
  </main>

@@ -36,38 +36,39 @@ body {
 }
 
 .arrow-dropbtn::before {
- /* transform: rotate(90deg); */
- content: " > ";
+ content: "";
+ background-image: url('../images/icons/down-arrow.png');
+ background-repeat: no-repeat;
+ background-size: contain;
  position: absolute;
- left: 5px;
- transform: rotate(90deg);
+ width: 13px;
+ height: 13px;
+ left: 2px;
+ top: 2px;
+ 
 }
 
 .menu__item-dropdown::after {
- /* transform: rotate(90deg); */
- content: " > ";
+ content: "";
+ background-image: url('../images/icons/down-arrow.png');
+ background-repeat: no-repeat;
+ background-size: contain;
  position: absolute;
+ width: 13px;
+ height: 13px;
  left: 63px;
- top: 12px;
- transform: rotate(90deg);
+ bottom: 15px;
+ 
 }
 
 .laptop-img{
  position: absolute;
  right: 0px;
  bottom: 330px;
-
- /* z-index: 1; */
 }
 
 .top__container {
- /* max-width: 1700px; */
- /* margin: 0 auto; */
- /* background-repeat: no-repeat;
- background-size: cover; */
  background-position: top center;
- /* padding: 120px 0 130px; */
- /* text-align: center; */
  color: #FFFFFF;
  padding-left: 30px;
 }
@@ -313,13 +314,16 @@ input:checked ~.tab-content {
  }
 
   .menu__item-dropdown::after {
-   /* transform: rotate(90deg); */
-   content: " > ";
-   font-size: 24px;
+   content: "";
+   background-image: url('../images/icons/down-arrow.png');
+   background-repeat: no-repeat;
+   background-size: contain;
    position: absolute;
-   left: 77px;
-   top: 6px;
-   transform: rotate(90deg);
+   width: 14px;
+   height: 14px;
+   /* left: 63px; */
+   right: 0;
+   top: 5px;
   }
 
 }
@@ -418,7 +422,14 @@ input:checked ~.tab-content {
  .program__items {
  max-width: 85%;
  }
-  
+
+ .dropdown__lang a {
+  padding: 0 18px;
+ }
+ 
+ .arrow-dropbtn::before{
+  top: 5px;
+ }
 
 }
 
